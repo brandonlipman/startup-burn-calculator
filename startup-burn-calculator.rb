@@ -10,7 +10,7 @@ puts "How many employees? "
 
 puts "Do you have any money? (Yes or NO) "
 	q_money = gets.to_s
-	puts (q_money == "Yes") ? "You're Fucked" : "Okay"
+	puts (q_money == "Yes") ? "You're Not In Good Shape" : "Okay"
 
 puts "How much money do you have? "
 	amount_money = gets.to_i
